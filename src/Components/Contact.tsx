@@ -2,6 +2,9 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { Fade } from "react-awesome-reveal";
+import Lottie from "react-lottie";
+import Radio from "./../assets/Radio.json"
+
 
 
 const Contact = () => {
@@ -47,6 +50,23 @@ const Contact = () => {
                 <button className="bg-[#4267B2] w-[60%] md:w-full  ml-4 text-white rounded-md py-2 px-4 i lg:w-80" type="submit">Submit</button>
             </div>
         </form>
+
+    </div>
+    <div className="flex md:justify-center">
+
+    <Fade direction="left">
+              <div className="w-36 ml-7 md:ml-15 md:w-36">
+                {/* Adjusted margin-top */}
+                {/* Ensure correct size adjustment */}
+                <Lottie
+                  options={{
+                    loop: true,
+                    autoplay: true,
+                    animationData: Radio,
+                  }}
+                />
+              </div>
+            </Fade>
     </div>
 </div>
 

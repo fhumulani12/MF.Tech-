@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='sticky top-0 z-50 '>
-      <div className='bg-white p-4 w-full'>
+      <div className='bg-white p-3 w-full '>
         <div className='flex justify-between mt-5'>
           <h1 className=' md:ml-10 font-bold text-3xl cursor-pointer' onClick={scrollToTop}>MF<span className='text-[#4267B2]'>.Tech</span></h1>
           <div className='flex items-center'>
@@ -23,28 +23,35 @@ const Navbar = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
               </svg>
             </div>
-            <ul className={`md:flex ${showMenu ? 'block' : 'hidden'} md:ml-10 md:mr-10 md:mt-0 md:bg-transparent md:flex-1 md:justify-end md:items-center hidden cursor-pointer`}>
+            <ul className={`md:flex ${showMenu ? 'block' : 'hidden'} md:ml-10 md:mr-20 md:mt-0 md:bg-transparent md:flex-1 md:justify-end md:items-center hidden cursor-pointer`}>
               <li className='pl-6 font-medium'>
-                <Link to="Home" smooth={true} duration={1000} offset={-170} className="hover:text-[#4267B2]">
+                <Link to="Home" smooth={true} duration={900} offset={-170} className="hover:text-[#4267B2]">
                   Home
                 </Link>
               </li>
               <li className='pl-6 font-medium'>
-                <Link to="Aboutpage" smooth={true} duration={1000} offset={-100} className="hover:text-[#4267B2]">
+                <Link to="Aboutpage" smooth={true} duration={900} offset={-100} className="hover:text-[#4267B2]">
                   About
                 </Link>
               </li>
               <li className='pl-6 font-medium'>
-                <Link to="Project" smooth={true} duration={1000} offset={-100} className="hover:text-[#4267B2]">
-                  Project
+                <Link to="Timelinepage" smooth={true} duration={900} offset={-100} className='hover:text-[#4267B2] rounded-md '>
+                  Timeline
                 </Link>
               </li>
               <li className='pl-6 font-medium'>
-                <Link to="Contact" smooth={true} duration={1000} offset={-50} className='hover:text-[#4267B2] rounded-md '>
-                  Contact 👋
+                <Link to="Project" smooth={true} duration={900} offset={-100} className="hover:text-[#4267B2]">
+                  Project
                 </Link>
               </li>
+           
+             
             </ul>
+            <button className='bg-[#4267B2] text-white font-bold px-4 py-2 rounded-md mr-10 hidden md:block transition duration-300 ease-in-out hover:bg-transparent hover:border border-black  hover:text-black  '>
+              <Link to="Contact" smooth={true} duration={900} offset={-50} className=' '>
+                  Contact 👋
+                </Link>
+              </button>
           </div>
         </div>
       </div>
@@ -62,22 +69,28 @@ const Navbar = () => {
         </div>
         <ul className='flex flex-col cursor-pointer mt-20 text-white uppercase p-4'>
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Home" smooth={true} duration={1000} offset={-170} className="hover:text-[#4267B2]">
+            <Link onClick={toggleMenu} to="Home" smooth={true} duration={900} offset={-170} className="hover:text-zinc-200">
               Home
             </Link>
           </li>
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Aboutpage" smooth={true} duration={1000} offset={-100} className="hover:text-[#4267B2]">
+            <Link onClick={toggleMenu} to="Aboutpage" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200">
               About
             </Link>
           </li>
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Project" smooth={true} duration={1000} offset={-100} className="hover:text-[#4267B2]">
+            <Link onClick={toggleMenu} to="Timelinepage" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200">
+              Timeline
+            </Link>
+          </li>
+         
+          <li className='font-bold p-4 border-b border-zinc-200'>
+            <Link onClick={toggleMenu} to="Project" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200">
               Project
             </Link>
           </li>
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Contact" smooth={true} duration={1000} offset={-50} className='hover:text-[#4267B2]'>
+            <Link onClick={toggleMenu} to="Contact" smooth={true} duration={900} offset={-50} className='hover:text-zinc-200'>
               Contact Me
             </Link>
           </li>

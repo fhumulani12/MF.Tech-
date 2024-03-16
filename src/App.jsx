@@ -5,6 +5,7 @@ import Aboutpage from "./Pages/Aboutpage"
 
 import Projectpage from "./Pages/Projectpage"
 import Contactpage from "./Pages/Contactpage"
+import Timelinepage from "./Pages/Timelinepage"
 
 
 
@@ -27,6 +28,10 @@ function App() {
 
 <section id="Aboutpage">
 <Aboutpage/>
+</section>
+
+<section id="Timelinepage">
+<Timelinepage/>
 </section>
 
 <section id="Project">
