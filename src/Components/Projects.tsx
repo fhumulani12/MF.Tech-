@@ -1,5 +1,6 @@
 import React from "react";
 import Barberland from "./../assets/barberland.png";
+import Myportfolio from "./../assets/Images/Project2.png";
 import { Fade } from "react-awesome-reveal";
 
 const Projects = () => {
@@ -43,6 +44,34 @@ const Projects = () => {
           </Fade>
         </div>
       </div>
+
+      <div className="md:flex justify-center items-center">
+        <div>
+          <Fade direction="left">
+            <img src={Myportfolio} alt="website" />
+          </Fade>
+        </div>
+        <div className="text-center">
+          <Fade direction="left">
+            <h1 className="font-bold text-2xl">MF.Tech Website</h1>
+            <p className="text-[#555] p-5">
+              MF.tech is a successful open-source project that I created
+              which has been featured on some of the biggest tech sites like
+              EliteHost, Hostinger, etc. and used by hundreds of clients who need my services.
+            </p>
+          </Fade>
+          <Fade direction="up">
+            <a href="https://www.mulaudzifhumulani.co.za/" target="blank">
+            <button className="bg-[#4267B2] py-2 px-4 rounded-md font-semibold text-white">
+              Visit Site
+            </button>
+
+            </a>
+           
+          </Fade>
+        </div>
+      </div>
+      
     </div>
   );
 };
