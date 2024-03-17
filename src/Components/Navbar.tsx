@@ -1,5 +1,17 @@
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import { GoHomeFill } from "react-icons/go";
+import { IoMdCloudDownload } from "react-icons/io";
+import { IoTime } from "react-icons/io5";
+import { AiFillProject } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
+import Lottie from "react-lottie";
+import Robot from "../assets/Robot.json"
+
+
+
+
+
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -69,31 +81,53 @@ const Navbar = () => {
         </div>
         <ul className='flex flex-col cursor-pointer mt-20 text-white uppercase p-4'>
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Home" smooth={true} duration={900} offset={-170} className="hover:text-zinc-200">
+            <Link onClick={toggleMenu} to="Home" smooth={true} duration={900} offset={-170} className="hover:text-zinc-200 gap-1 flex">
+            <GoHomeFill  size={20}/>
+
               Home
             </Link>
           </li>
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Aboutpage" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200">
+            <Link onClick={toggleMenu} to="Aboutpage" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200 gap-1 flex">
+            <IoMdCloudDownload size={20} />
+
               About
             </Link>
           </li>
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Timelinepage" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200">
+            <Link onClick={toggleMenu} to="Timelinepage" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200 gap-1 flex">
+            <IoTime size={22} />
+
               Timeline
             </Link>
           </li>
          
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Project" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200">
+            <Link onClick={toggleMenu} to="Project" smooth={true} duration={900} offset={-100} className="hover:text-zinc-200 gap-1 flex">
+            <AiFillProject size={20} />
+
               Project
             </Link>
           </li>
           <li className='font-bold p-4 border-b border-zinc-200'>
-            <Link onClick={toggleMenu} to="Contact" smooth={true} duration={900} offset={-50} className='hover:text-zinc-200'>
+            <Link onClick={toggleMenu} to="Contact" smooth={true} duration={900} offset={-50} className='hover:text-zinc-200 gap-1  flex'>
+            <MdEmail size={20} />
+
               Contact Me
             </Link>
           </li>
+
+          <div className="w-64  mr-5 md:w-96 ">
+                {/* Adjusted margin-top */}
+                {/* Ensure correct size adjustment */}
+                <Lottie
+                  options={{
+                    loop: true,
+                    autoplay: true,
+                    animationData: Robot,
+                  }}
+                />
+              </div>
         </ul>
       </div>
     </div>
