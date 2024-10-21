@@ -27,8 +27,8 @@ const Homehero = () => {
         <div className="md:flex flex-col items-center justify-center">
           <Fade direction="right">
             <h1 className="font-semibold text-[#4267B2] text-2xl md:text-3xl md:justify-center md:text-center font-abc">
-              Hi! I'M Mulaudzi Fhumulani A Junior Software developer,
-              <br /> Data analyst and UI/UX design.
+              Hi! I'M Mulaudzi Fhumulani A Junior Software developer 
+              
             </h1>
           </Fade>
           <Fade direction="left">

@@ -45,7 +45,7 @@ const About = () => {
       <p className="mt-10 mr-5">
         I'm A Solution-Oriented{" "}
         <span className="font-semibold text-gray-700">
-          Junior Software Developer,<br/> Data Analyst UI/UX Designer,
+          Junior Software Developer,
         </span>{" "}
         A Lifelong Learner, <br/>And Dedicated To Trying New Things. I Enjoy
         Development<br/> Because Of The Satisfaction I Get From{" "}
@@ -92,8 +92,8 @@ Contact Me
             <h1 className="font-semibold text-zinc-700">JavaScript</h1>
           </div>
 
-          <div className="mt-10 bg-gray-300 text-center py-2 max-w-20 pr-2 pl-2 rounded-md ml-3  ">
-            <h1 className="font-semibold text-zinc-700">C#</h1>
+          <div className="mt-10 bg-gray-300 text-center py-2 max-w-20 pr-2 pl-2 rounded-md ml-3 whitespace-nowrap  ">
+            <h1 className="font-semibold text-zinc-700">Shopify</h1>
           </div>
 
           <div className="mt-10 bg-gray-300 text-center py-2 max-w-20 pr-2 pl-3 rounded-md ml-3">
@@ -101,7 +101,7 @@ Contact Me
           </div>
 
           <div className="mt-10 bg-gray-300 text-center py-2 max-w-20 pr-2 pl-2 rounded-md ml-3">
-            <h1 className="font-semibold text-zinc-700">MVC</h1>
+            <h1 className="font-semibold text-zinc-700">Node js</h1>
           </div>
          
           <div className="mt-10 bg-gray-300 text-center py-2 max-w-22 pr-2 pl-2 rounded-md ml-3  ">
@@ -139,7 +139,7 @@ Contact Me
             <h1 className="font-semibold text-zinc-700 pl-2">TypeScript</h1>
           </div>
           <div className="mt-10 bg-gray-300 text-center py-2 max-w-22 rounded-md ml-3 pr-2 pl-2">
-            <h1 className="font-semibold text-zinc-700">Anaconda</h1>
+            <h1 className="font-semibold text-zinc-700">Mysql</h1>
           </div>
           </div>
           </Fade>

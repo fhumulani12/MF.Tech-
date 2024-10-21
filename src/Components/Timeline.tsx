@@ -62,13 +62,30 @@ const Timeline = () => {
         <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-500"> I Volunteer To Work As A Graphic Designer And Photographer  </h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400">MadibazNews</p>
     </li>
-    <li className="ms-4">
+    <li className="ms-4 mb-10">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">November 2023</time>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-500">Completed My National Diploma IT(Software Development)</h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400">Nelson Mandela University</p>
     </li>
+
+    <li className=" mb-10 ms-4">
+        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2024</time>
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-500">Graduated with a National Diploma in IT, specializing in Software Development.</h3>
+        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Nelson Mandela University</p>
+    </li>
+
+
+    <li className="ms-4">
+        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 01 - October 25 2024</time>
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-500">I got a role as Junior Software Developer</h3>
+        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Bitcube</p>
+    </li>
 </ol>
+
+
       
     </div>
     <div className="w-64 ml-28 md:ml-15 md:w-96 ">

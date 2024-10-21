@@ -6,6 +6,9 @@ import Aboutpage from "./Pages/Aboutpage"
 import Projectpage from "./Pages/Projectpage"
 import Contactpage from "./Pages/Contactpage"
 import Timelinepage from "./Pages/Timelinepage"
+import Bitcube from "./Components/Bitcube"
+
+
 
 
 
@@ -32,6 +35,7 @@ function App() {
 
 <section id="Timelinepage">
 <Timelinepage/>
+<Bitcube/>
 </section>
 
 <section id="Project">

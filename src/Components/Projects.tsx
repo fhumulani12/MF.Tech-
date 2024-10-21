@@ -49,7 +49,7 @@ const Projects = () => {
       <div className="md:flex justify-center items-center">
         <div>
           <Fade direction="left">
-            <img src={Myportfolio} alt="website" />
+            <img src={Myportfolio} alt="website" className=" z-10 " />
           </Fade>
         </div>
         <div className="text-center">
