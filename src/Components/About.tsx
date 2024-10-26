@@ -101,7 +101,7 @@ Contact Me
           </div>
 
           <div className="mt-10 bg-gray-300 text-center py-2 max-w-20 pr-2 pl-2 rounded-md ml-3">
-            <h1 className="font-semibold text-zinc-700">Node js</h1>
+            <h1 className="font-semibold text-zinc-700">Node.js</h1>
           </div>
          
           <div className="mt-10 bg-gray-300 text-center py-2 max-w-22 pr-2 pl-2 rounded-md ml-3  ">
@@ -115,7 +115,7 @@ Contact Me
         <Fade direction="right">
         <div className="flex  md:mr-10 ">
           <div className="mt-10 bg-gray-300 text-center py-2 max-w-22 rounded-md pr-2">
-            <h1 className="font-semibold text-zinc-700 pl-2">WordPresss</h1>
+            <h1 className="font-semibold text-zinc-700 pl-2">WordPress</h1>
           </div>
           <div className="mt-10 bg-gray-300 text-center py-2 max-w-20 rounded-md ml-3 pr-2 pl-2">
             <h1 className="font-semibold text-zinc-700">GitHub</h1>
