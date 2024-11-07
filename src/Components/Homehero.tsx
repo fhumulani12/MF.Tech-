@@ -52,7 +52,7 @@ const Homehero = () => {
             </Fade>
             <Fade direction="right">
               <a
-                href=" https://drive.google.com/file/d/1_pyN9WIEin5RAisqBVKBR9lchf1Qb1B5/view?usp=drive_link "
+                href=" https://drive.google.com/file/d/1GTwL0VZytJDwk6kakH64Y403XS883y0d/view?usp=sharing"
                 target="_blank"
               >
                 <button className="border rounded-lg font-semibold border-black px-2 py-3  transition duration-300 ease-in-out hover:bg-[#4267B2] hover:border-none hover:text-white ">
